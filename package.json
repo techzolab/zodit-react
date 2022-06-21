@@ -1,6 +1,6 @@
 {
 	"name": "@techzolab/zodit-react",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Zodit is awesome and usefully wysiwyg editor with filebrowser",
 	"main": "build/zodit-react.js",
 	"author": "Nazrul Islam Nadeem <nazrul.devs@gmail.com> (https://techzolab.net/)",
