@@ -1,6 +1,6 @@
 {
 	"name": "@techzolab/zodit-react",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Zodit is awesome and usefully wysiwyg editor with filebrowser",
 	"main": "build/zodit-react.js",
 	"author": "Nazrul Islam Nadeem <nazrul.devs@gmail.com> (https://techzolab.net/)",
@@ -49,7 +49,7 @@
 		"webpack-dev-server": "^3.11.0"
 	},
 	"scripts": {
-		"newversion": "npm run lint && npm update && rm -rf build/ && npm run build && npm version patch --no-git-tag-version && npm run github && npm publish ./",
+		"newversion": "npm run lint && npm update && rm -rf build/ && npm run build && npm version patch --no-git-tag-version && npm run github && npm publish --access public ./",
 		"lint": "eslint ./",
 		"demo": "cd examples && export NODE_ENV=development && webpack-dev-server --config ./webpack.config.js --mode development --port 4000 --hot --inline",
 		"start": "npm run demo",
