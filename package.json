@@ -1,6 +1,6 @@
 {
 	"name": "@techzolab/zodit-react",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Zodit is awesome and usefully wysiwyg editor with filebrowser",
 	"main": "build/zodit-react.js",
 	"author": "Nazrul Islam Nadeem <nazrul.devs@gmail.com> (https://techzolab.net/)",
@@ -17,7 +17,7 @@
 	],
 	"dependencies": {
 		"eslint-plugin-react-hooks": "^4.5.0",
-		"@techzolab/zodit": "^1.0.1"
+		"@techzolab/zodit": "^1.0.3"
 	},
 	"peerDependencies": {
 		"react": "~0.14 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
