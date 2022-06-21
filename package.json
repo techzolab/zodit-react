@@ -1,5 +1,5 @@
 {
-	"name": "zodit-react",
+	"name": "@techzolab/zodit-react",
 	"version": "1.0.0",
 	"description": "Zodit is awesome and usefully wysiwyg editor with filebrowser",
 	"main": "build/zodit-react.js",
