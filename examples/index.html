@@ -1,0 +1,46 @@
+<!doctype html>
+<!--
+ * Zodit Editor (https://techzolab.net/zodit/)
+ * License https://techzolab.net/zodit/license.html
+ * Copyright 2021-2022 Nazrul Islam Nadeem https://techzolab.net
+-->
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+	<title>Zodit React Example</title>
+</head>
+<body>
+<header>
+</header>
+<div id="main_container" class="container">
+	<div id="introduction">
+		<h3>JavaScript</h3>
+		<pre>
+import './app.css';
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import ZoditEditor from "../src/ZoditEditor";
+
+ReactDOM.render(&lt;ZoditEditor
+  value={"test"}
+  config={{
+    readonly: false // all options from https://techzolab.net/zodit/doc/
+  }}
+  onChange={console.log}
+/>, document.getElementById('editor'));
+        </pre>
+	</div>
+	<div class="result">
+		<div id="editor"></div>
+	</div>
+</div>
+</body>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i" rel="stylesheet">
+
+<script src="app.js"></script>
+</html>
